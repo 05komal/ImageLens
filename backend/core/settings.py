@@ -63,6 +63,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
