@@ -1,6 +1,10 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: '/api' })
+const api = axios.create({
+  baseURL: import.meta.env.VITE_API_URL
+    ? import.meta.env.VITE_API_URL + '/api'
+    : '/api'
+})
 
 export async function searchImages(query, { sources = [], page = 1, perPage = 20 } = {}) {
   const params = { q: query, page, per_page: perPage }
