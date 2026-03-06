@@ -1,5 +1,2 @@
-[build]
-builder = "nixpacks"
-
 [deploy]
-startCommand = "python -m gunicorn core.wsgi:application --bind 0.0.0.0:$PORT"
+startCommand = "/app/.venv/bin/gunicorn core.wsgi:application --bind 0.0.0.0:$PORT"
