@@ -1,4 +1,4 @@
-# 🔍 ImageLens — Legal Image Search & Discovery
+# ImageLens — Legal Image Search & Discovery
 
 ![ImageLens Banner](https://img.shields.io/badge/ImageLens-Visual%20Discovery-c8372d?style=for-the-badge)
 ![Django](https://img.shields.io/badge/Django-5.2-green?style=flat-square&logo=django)
@@ -8,26 +8,26 @@
 
 > A full-stack image aggregator that searches **Unsplash**, **Pixabay**, and **Pexels** simultaneously via their official APIs — fully legal, free, and attribution-friendly.
 
-🌐 **Live Demo** → [https://image-lens.vercel.app](https://image-lens.vercel.app)
+**Live Demo** → [https://image-lens.vercel.app](https://image-lens.vercel.app)
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔎 **Multi-source search** — queries Unsplash, Pixabay & Pexels in parallel
-- ⚡ **Fast results** — concurrent API fetching with Python ThreadPoolExecutor
-- 🎨 **Beautiful UI** — editorial magazine aesthetic with Cormorant Garamond typography
-- 📱 **Responsive** — works on desktop, tablet, and mobile
-- 🖼️ **Masonry grid** — Pinterest-style 3-column layout
-- 💡 **Lightbox modal** — full image details, photographer credit, tags & dimensions
-- ⬇️ **Download** — download any image directly from the modal
-- 🔖 **Source filter** — filter results by Unsplash, Pixabay, or Pexels
-- ♾️ **Pagination** — load more images with infinite-style loading
-- ⚖️ **Legally sourced** — all images via official APIs with proper licensing
+-  **Multi-source search** — queries Unsplash, Pixabay & Pexels in parallel
+-  **Fast results** — concurrent API fetching with Python ThreadPoolExecutor
+-  **Beautiful UI** — editorial magazine aesthetic with Cormorant Garamond typography
+-  **Responsive** — works on desktop, tablet, and mobile
+-  **Masonry grid** — Pinterest-style 3-column layout
+-  **Lightbox modal** — full image details, photographer credit, tags & dimensions
+-  **Download** — download any image directly from the modal
+-  **Source filter** — filter results by Unsplash, Pixabay, or Pexels
+-  **Pagination** — load more images with infinite-style loading
+-  **Legally sourced** — all images via official APIs with proper licensing
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 image-lens/
@@ -76,7 +76,7 @@ image-lens/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.11+
@@ -123,11 +123,11 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) 🎉
+Open [http://localhost:3000](http://localhost:3000) 
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### `GET /api/search/`
 
@@ -148,7 +148,7 @@ Returns which API keys are configured.
 
 ---
 
-## ⚖️ Image Licensing
+## Image Licensing
 
 | Source | License |
 |--------|---------|
@@ -160,15 +160,15 @@ All images are fetched via **official APIs** — no Terms of Service are violate
 
 ---
 
-## 📬 Contact
+## Contact
 
 Have questions or want to collaborate?
 
-📧 [zenertrizz@gmail.com](mailto:zenertrizz@gmail.com)
+ [zenertrizz@gmail.com](mailto:zenertrizz@gmail.com)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
